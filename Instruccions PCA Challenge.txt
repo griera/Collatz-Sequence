@@ -1,0 +1,55 @@
+/////////////////////***   3n+1   ***////////////////////////
+
+Considereu el següent pseudo-codi, suposant que N és un enter positiu.
+
+1.- input N
+2.- print N
+3.- if N=1 then stop
+4.- if N is odd then N := 3N+1 else N := N/2
+    goto 2
+
+El programa genera una sèrie de numeros enters. Per exemple, si N és inicialment 22, la 
+seqüència generada és: 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1.
+
+Es conjectura que aquesta seqüència convergeix al valor 1 per a qualsevol valor de N. Ha 
+estat comprovat per valors fins a un bilió, pero no hi ha cap prova matemàtica de la seva 
+validesa.
+
+Per qualsevol N, la longitud d'aquesta seqüència es denomina longitud de cicle de N. Per 
+exemple, la longitud de cicle de 22 és 16.
+
+L'objectiu és escriure un programa que calculi el valor màxim del cicle de N per un rang 
+donat de valors. L'entrada del programa és una llista de parells d'enters positius (A,B), 
+cada parell en una linia per si mateix. Si A=0, marca el final de l'entrada. En qualsevol 
+cas, A sempre serà menor o igual que B, i B serà com a màxim 4,000,000,000 (quatre mil 
+milions). Per cadascun dels parells, el vostre programa ha de calcular el valor màxim de la 
+longitud de cicle entre els dos valors (inclosos).
+
+Notes
+- L'entrada s'ha de llegir de STDIN, i el resultat s'ha de generar per STDOUT.
+- Per calcular el temps d'execució del vostre programa l'escriptura a STDOUT es farà a
+  /dev/null.
+- La funció main ha de retornar 0 si l'execució ha estat correcte.
+- Quan detecteu el final de l'entrada, NO mostreu res per l'STDOUT, només heu de finalitzar.
+- Noteu que, per alguns valors d'entrada, el cicle pot incloure nombres superiors a 2 a la
+  32 (per exemple, pel valor d'entrada 6631675).
+- El temps màxim d'execució és de 100 segons. Si el vostre codi triga més, considerarem que
+  s'ha quedat "penjat".
+- Hi ha un límit de 8KB en la mida del vostre codi font.
+
+Exemple d'entrada:
+
+100 200
+900 1000
+1 10
+201 210
+6631675 6631675
+0 0
+
+Exemple de sortida:
+
+125
+174
+20
+89
+577

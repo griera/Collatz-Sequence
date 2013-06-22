@@ -1,0 +1,15 @@
+http://www.cprogramming.com/tutorial/cpreprocessor.html --> Link amb info sobre fer macros en C
+http://en.wikipedia.org/wiki/Collatz_conjecture --> Conjectura de Collatz
+http://www.nitrxgen.net/collatz.php --> Generador de la seqüència de Collatz per a nombre de fins a 500 digits!! (i molt ràpid!)
+http://graphics.stanford.edu/~seander/bithacks.html#ZerosOnRightLinear --> Mecanismes utils per bithacks
+http://hbfs.wordpress.com/2012/05/01/faster-collatz/ --> Codi "optimitzat" de Collatz en C/C++
+http://code.google.com/p/srumsey-cs373-collatz/wiki/Collatz --> Explica possibles optimitzacions a aplicar
+http://members.chello.nl/k.ijntema/ --> Repositori de programets relacionats am la seqüència de Collatz
+http://www.mathblog.dk/project-euler-14/
+http://code.google.com/p/azar-cs373-p1/wiki/Design --> Molt bona explicacio de com aplicar memoization
+http://blog.racket-lang.org/2012/10/the-3n1-problem_4990.html
+http://www.sciencezero.org/index.php?title=Different_implementations_of_a_simple_Collatz_iterator_and_their_performance --> Estudi dels branchs predicitons
+http://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Other-Builtins.html --> Llistat dels __builtin_ de GCC
+http://locklessinc.com/articles/vectorize/ --> Article sobre com ajuadar al compilador gcc a que faci auto-vectoritzacio
+http://www-personal.ksu.edu/~kconrow/ --> Web MOLT BONA sobre anàlisis de la conjectura de Collatz
+http://software.intel.com/en-us/articles/increasing-memory-throughput-with-intel-streaming-simd-extensions-4-intel-sse4-streaming-load
